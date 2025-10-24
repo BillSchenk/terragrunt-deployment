@@ -1,0 +1,9 @@
+.terraform/*
+.terraform
+.terraform.lock.hcl
+# .tfstate files
+*.tfstate
+*.tfstate.*
+*-generated.tf
+*generated*
+*.terragrunt-cache
