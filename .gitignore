@@ -1,9 +1,11 @@
 .terraform/*
 .terraform
 .terraform.lock.hcl
+.terragrunt.lock.hcl
 # .tfstate files
 *.tfstate
 *.tfstate.*
 *-generated.tf
 *generated*
-*.terragrunt-cache
+.terragrunt-cache/
+.terragrunt-cache
