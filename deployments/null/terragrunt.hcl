@@ -3,7 +3,7 @@ include "root" {
 }
 
 terraform {
-  source = "git@github.com:BillSchenk/terraform-modules.git?ref=null/null_resource/v1.0.0"
+  source = "git@github.com:BillSchenk/terraform-modules.git?ref=null/null_resource/v1.0.1"
 }
 
 inputs = {
