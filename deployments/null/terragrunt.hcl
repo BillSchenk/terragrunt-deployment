@@ -5,7 +5,7 @@ include "root" {
 
 # add a random comment to force cache invalidation
 terraform {
-  source = "git@github.com:BillSchenk/terraform-modules.git?ref=null/null_resource/v1.0.1"
+  source = "git@github.com:BillSchenk/terraform-modules.git?ref=null/null_resource/v1.1.0"
 }
 
 inputs = {
